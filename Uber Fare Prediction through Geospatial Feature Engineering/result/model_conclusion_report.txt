@@ -1,0 +1,58 @@
+
+============================================================
+UBER FARE PREDICTION – MODEL EVALUATION REPORT
+============================================================
+
+1. Dataset Summary
+------------------
+- Total cleaned observations: 181773
+- Total features used: 11
+- Target variable: fare_amount
+
+2. Model Performance Comparison
+-------------------------------
+Ridge Regression:
+    R2 Score  : 0.5449
+    RMSE      : 2.8001
+
+Random Forest:
+    R2 Score  : 0.7610
+    RMSE      : 2.0290
+
+Gradient Boosting:
+    R2 Score  : 0.7431
+    RMSE      : 2.1037
+
+3. Best Model
+-------------
+Best performing model based on R2 score:
+    Random Forest
+
+Corresponding RMSE:
+    2.0290
+
+4. Analytical Interpretation
+----------------------------
+- Distance traveled (km) shows the strongest predictive relationship with fare.
+- Tree-based models outperform linear models, indicating nonlinear relationships.
+- Ensemble methods reduce variance and capture feature interactions effectively.
+- Ridge Regression provides stable but comparatively lower predictive power.
+
+5. Business Insight
+-------------------
+- Fare pricing is highly distance-dependent.
+- Temporal features (hour, weekday, month) contribute secondary influence.
+- Non-linear modeling is recommended for production deployment.
+
+6. Recommendation
+-----------------
+Deploy Random Forest for operational fare prediction.
+Further improvements may include:
+    - Feature expansion (weather, surge multiplier)
+    - Advanced boosting (XGBoost / LightGBM)
+    - Hyperparameter Bayesian optimization
+    - Model explainability (SHAP analysis)
+
+============================================================
+End of Report
+============================================================
