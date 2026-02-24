@@ -1,0 +1,19 @@
+SpamDetect AI - Project Conclusion
+============================================================
+
+Generated on: 2026-02-24 19:40:04.687945
+
+Performance Summary:
+              Model  CV Accuracy  Test Accuracy  ROC AUC
+                KNN     0.775691       0.799613 0.916209
+                SVM     0.921271       0.928479 0.992968
+Logistic Regression     0.962431       0.968428 0.989286
+
+Spam Detection Metrics:
+              Model  Precision (Spam)  Recall (Spam)  F1-Score (Spam)
+                KNN          0.595862       0.960000         0.735319
+                SVM          0.982906       0.766667         0.861423
+Logistic Regression          0.920335       0.975556         0.947141
+
+Conclusion:
+The comparative evaluation demonstrates that Logistic Regression achieved the highest test accuracy of 0.9684. Cross-validation confirms model stability, while ROC-AUC and F1-score validate effective spam detection performance.

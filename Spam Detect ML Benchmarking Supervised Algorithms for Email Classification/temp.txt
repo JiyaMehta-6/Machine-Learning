@@ -1,0 +1,22 @@
+SpamShield-Pro/
+│
+├── data/
+│   └── emails.csv
+│
+├── outputs/
+│   ├── model_accuracy_comparison.png
+│   ├── knn_confusion_matrix.png
+│   ├── svm_confusion_matrix.png
+│   ├── logistic_confusion_matrix.png
+│   └── project_conclusion.txt
+│
+├── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── models.py
+│   ├── evaluation.py
+│   ├── visualization.py
+│   ├── report_generator.py
+│   └── main.py
+│
+└── requirements.txt
