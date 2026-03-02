@@ -1,0 +1,21 @@
+
+TESLA STOCK RETURN PREDICTION ANALYSIS (2010-2017)
+
+Best Model: XGBoost (Hyperparameter Tuned)
+
+Final Accuracy: 0.5288
+Final ROC-AUC: 0.5419
+
+KEY PATTERNS OBSERVED:
+- Strong long-term upward trend in closing price.
+- Volatility spikes correspond to volume surges.
+- Moving averages significantly contribute to prediction.
+- Quarter-end effect is minimal.
+- Market shows weak short-term predictability (~55-60% AUC typical).
+
+INSIGHT:
+Stock direction prediction using price-based technical indicators
+has limited predictive power due to market efficiency.
+Tree-based boosting performs better than linear models.
+
+END OF REPORT

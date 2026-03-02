@@ -1,0 +1,21 @@
+
+FINAL MODEL EVALUATION METRICS
+--------------------------------
+
+Accuracy: 0.5288
+ROC-AUC: 0.5419
+
+R2 Score: -0.8884
+MSE: 0.4712
+RMSE: 0.6865
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.53      0.52       133
+           1       0.55      0.53      0.54       145
+
+    accuracy                           0.53       278
+   macro avg       0.53      0.53      0.53       278
+weighted avg       0.53      0.53      0.53       278
+
